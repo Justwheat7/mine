@@ -29,6 +29,11 @@ button{
     transition: .5s;
 }
 
+button a{
+   text-decoration: none;
+   color: rgb(211, 118, 75);
+}
+
 button:hover{
     background-color:rgb(251, 238, 232); 
     transform: scale(1.1);
@@ -49,4 +54,33 @@ font-weight: bold;
 
 p{
 font-size: 25px;
+}
+
+footer{
+    background-color: rgba(212, 140, 241, 0.233);
+}
+
+footer p{
+    margin: 0;
+    padding: 50px;
+}
+
+@media(max-width: 500px){
+     header{
+         display: block;
+         text-align: center;
+         padding: 10px 0;
+     }
+     nav{
+         margin: 10px 0;
+     }
+     h1{
+         font-size: 40px;
+     }
+     div{
+         padding: 10px 10px;
+     }
+     p{
+         font-size: 20px;
+     }
 }
